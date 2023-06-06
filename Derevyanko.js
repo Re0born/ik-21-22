@@ -15,8 +15,7 @@ function convertToAmPm(hours, minutes) {
     console.log(`${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')} ${period}`);
   }
   
-  const hours = parseInt(prompt("Введіть години:"));
-  const minutes = parseInt(prompt("Введіть хвилини:"));
+  convertToAmPm(23, 15);
+  convertToAmPm(22, 16);  
   
-  convertToAmPm(hours, minutes);
   
