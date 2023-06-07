@@ -2,3 +2,6 @@ merge test edited by o.lypko
 I'm conflict
 Resolve me please
 rebase me
+edited one more time by o.lypko
+editing last time done by r.lytvynenko
+(changed merge-test.txt)
