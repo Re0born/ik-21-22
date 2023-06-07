@@ -1,0 +1,29 @@
+#include <iostream>
+
+int main() {
+    float num1, num2;
+
+    std::cout << "Введіть перше число: ";
+    std::cin >> num1;
+
+    std::cout << "Введіть друге число: ";
+    std::cin >> num2;
+
+    float sum = num1 + num2;
+    std::cout << "Сума: " << sum << std::endl;
+
+    float diff = num1 - num2;
+    std::cout << "Різниця: " << diff << std::endl;
+
+    float product = num1 * num2;
+    std::cout << "Добуток: " << product << std::endl;
+
+    if (num2 != 0) {
+        float quotient = num1 / num2;
+        std::cout << "Частка: " << quotient << std::endl;
+    } else {
+        std::cout << "Ділення на нуль неможливе." << std::endl;
+    }
+
+    return 0;
+}
