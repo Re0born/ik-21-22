@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    int quantity;
+    float price;
+
+    std::cout << "Введіть кількість товару: ";
+    std::cin >> quantity;
+
+    std::cout << "Введіть ціну товару: ";
+    std::cin >> price;
+
+    float totalCost = quantity * price;
+
+    std::cout << "Загальна вартість покупки: " << totalCost << std::endl;
+
+    return 0;
+}
